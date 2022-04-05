@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #AD8B73;
+}
+.logo {
+    width: 35px;
+    margin-right: 1vw;
+}
+nav a {
+    color: sandybrown;
+    font-weight: bold;
+}
+nav a:hover {
+    color: sandybrown;
+}
+.rock-paper-scissors img {
+    width: 7vw;
+}
+.vs {
+    font-size: 7vw;
+    color: red;
+    font-weight: 600;
+}
+.refresh {
+    width: 3vw;
+}
+.back {
+    width: 20px;
+    margin-top: 8px;
+}
+.highlight {
+    padding: 0.25rem;
+    background-color:darkgray;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    max-width: 100%;
+    height: auto;
+}
+#rockPlayer1, #paperPlayer1, #scissorsPlayer1 {
+    cursor: pointer;
+}
+.refresh:hover {
+    width: 3.5vw;
+    cursor: pointer;
+}
+.back:hover {
+    cursor: pointer;
+}
+.result {
+    font-size: 3vw;
+    width: 14vw;
+    color: white;
+    height: auto;
+    padding: 0.25rem;
+    border-radius: 0.75rem;
+    border: 1px solid transparent;
+    background-color: green;
+    text-align: center;
+    -ms-transform: rotate(20deg);
+    transform: rotate(330deg);
+}
