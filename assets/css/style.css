@@ -47,6 +47,13 @@ html, body {
   height: 100vh;
 }
 
+#login {
+  background-image: url('../bg/background-1.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.6);
 }
